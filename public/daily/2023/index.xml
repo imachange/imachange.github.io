@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023年 on 1o0.Project</title>
+    <link>https://example.org/daily/2023/</link>
+    <description>Recent content in 2023年 on 1o0.Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 02 Nov 2023 00:15:30 +0900</lastBuildDate><atom:link href="https://example.org/daily/2023/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

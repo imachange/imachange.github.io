@@ -1,0 +1,18 @@
+{{ define "main" }}
+	{{- $sec := .CurrentSection }}
+	{{- if $sec }}
+		{{- if $sec.IsHome }}
+			{{ .Scratch.Set "pages" (where $.Site.RegularPages "Section" "") }}
+		{{- else }}
+			{{ .Scratch.Set "pages" $sec.Pages }}
+		{{- end }}
+	{{- end }}
+	<main>
+		<h2>{{ .Title }}一覧</h2>
+		<ul>
+			{{- range .Site.RegularPages -}}
+				<li><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0900" }}">{{ .Date.Format "15:04:05" }}</time>{{ if eq (.Param "type") "logs" }}{{.Content}}{{else}}<a href="{{ .RelPermalink }}">{{ .Title }}</a><br>{{end}}</li>
+			{{- end -}}
+		</ul>  
+	</main>
+{{ end}}
