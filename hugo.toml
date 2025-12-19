@@ -1,0 +1,12 @@
+baseURL = 'https://1o0.jp/'
+languageCode = 'ja'
+title = '一往堂'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,101 @@
+body {
+  font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  display: grid;
+	min-height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+body > * {
+  display: grid;
+  grid-template-columns: minmax(20rem, 40rem);
+  place-content: center;
+}
+
+body > *:not(main) {
+  background-color: #222;
+  color: #EEE;
+  max-height: 3rem;
+}
+
+
+main {
+  grid-area: main;
+  color: #222;
+  background-color: #EEE;
+}
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  word-break: auto-phrase;
+  font-feature-settings: "palt";
+  /* 文字が詰まりすぎるのを緩和するためにletter-spacingを設定 */
+  letter-spacing: 0.05em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #555;
+  margin: 2em 0;
+}
+
+blockquote {
+  border-left: 4px solid #CCC;
+  margin: 1em 0;
+  padding-left: 1em;
+  color: #555;
+}
+
+.breadcrumb-list {
+  color: #EEE;
+  padding: 0;
+}
+
+.breadcrumb-item {
+  display: inline-block;
+}
+
+.breadcrumb-item:not(:last-child):first-child {
+  border: 0!important;
+  clip: rect(0,0,0,0)!important;
+  height: 1px!important;
+  margin: -1px!important;
+  overflow: hidden!important;
+  padding: 0!important;
+  position: absolute!important;
+  white-space: nowrap!important;
+  width: 1px!important;
+}
+
+.breadcrumb-item:not(:last-child)::after {
+  content: " / ";
+  padding: 0.5em 0;
+}
+
+.breadcrumb-link {
+  color: #EEE;
+  text-decoration: none;
+}
+
+.breadcrumb-link:visited {
+  color: #EEE;
+}

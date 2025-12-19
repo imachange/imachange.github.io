@@ -1,0 +1,5 @@
+{
+  "folder": "content/lifelog",
+  "template": "archetypes/lifelog/daily",
+  "format": "YYYY年/YYYY年MM月/YYYY年MM月DD日"
+}

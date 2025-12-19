@@ -1,9 +1,0 @@
-baseURL: https://1o0.jp/
-languageCode: ja
-title: 1o0.Project
-
-params:
-  description: "Yet another Independent Personal Site."
-
-permalinks:
-  daily: :slug

@@ -1,0 +1,9 @@
+<ol class="breadcrumb-list">
+    {{- range .Ancestors.Reverse }}
+      <li class="breadcrumb-item"><a href="{{ .Permalink }}" class="breadcrumb-link"{{ with .Description }} title="{{ . }}"{{ end }}>{{ .LinkTitle }}</a></li>
+    {{- end }}
+    {{- if .IsHome -}}
+			<li class="breadcrumb-item">{{ .Site.Title }}</li>
+    {{- end -}}
+</ol>
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }}

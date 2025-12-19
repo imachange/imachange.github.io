@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <article>
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ with .Description }}
+        <p>{{ . }}</p>
+      {{ end }}
+      {{- $pubDate := .PublishDate | time.Format "2006年01月02日" -}}
+      <p>作成: <time datetime="{{ .PublishDate | time.Format "2006-01-02T15:04:05Z07:00" }}">{{ $pubDate }}</time>{{ with .Lastmod }}
+        {{- $modDate := . | time.Format "2006年01月02日" -}}
+        {{ if ne $pubDate $modDate }}更新: <time datetime="{{ . | time.Format "2006-01-02T15:04:05Z07:00" }}">{{ $modDate }}</time>{{ end }}
+        {{ end }}</p>
+    </article>
+  {{ end }}
+{{ end }}

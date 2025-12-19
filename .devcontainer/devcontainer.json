@@ -1,0 +1,45 @@
+{
+  "name": "Hugo & TypeScript Dev (pnpm)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "remoteUser": "node",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "[go]": {
+          "editor.defaultFormatter": "golang.go",
+          "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+          }
+        },
+        "files.associations": {
+          "*.html": "html"
+        }
+      },
+      "extensions": [
+        "golang.go",
+        "rusnasonov.vscode-hugo",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "sibiraj-s.vscode-scss-formatter",
+        "vivaxy.vscode-conventional-commits"
+      ]
+    }
+  },
+  // コンテナ内の1313ポートをローカルに転送
+  "forwardPorts": [1313],
+
+  // サーバー起動時に「ブラウザで開く」などの通知を制御
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo Server",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/post-create.sh"
+}

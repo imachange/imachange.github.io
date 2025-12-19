@@ -1,0 +1,15 @@
+{
+  "userIgnoreFilters": [
+    "/[aA][sS][sS][eE][tT][sS]/",
+    "/[dD][aA][tT][aA]/",
+    "/[iI]18[nN]/",
+    "/[lL][aA][yY][oO][uU][tT][sS]/",
+    "/[tT][hH][eE][mM][eE][sS]/",
+    "/[pP][uU][bB][lL][iI][cC]/"
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content",
+  "attachmentFolderPath": "static",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true
+}
