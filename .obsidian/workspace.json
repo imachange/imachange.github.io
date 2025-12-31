@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog/_index.md",
+                "file": "content/blog/20251231『ぱん歴 創刊・第1号』を読んだ。.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "20251231『ぱん歴 創刊・第1号』を読んだ。"
             }
           }
         ]
@@ -186,26 +186,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:クイックスイッチャーを開く": false,
-      "graph:グラフビューを開く": false,
-      "daily-notes:今日のデイリーノートを開く": false,
-      "command-palette:コマンドパレットを開く": false,
       "hide-folders:Show hidden folders": false,
       "open-vscode:VSCode": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "command-palette:コマンドパレットを開く": false,
       "zk-prefixer:新規ユニークノートの作成": false
     }
   },
   "active": "5a2d625e773b50d7",
   "lastOpenFiles": [
-    "layouts/home.html",
+    "content/blog/20251214『新・女性学への招待』読書会.md",
+    "content/blog/20251209『統一後のドイツ』.md",
+    "content/blog/20251201『アナキズム』.md",
+    "content/blog/20251231『ぱん歴 創刊・第1号』を読んだ。.md",
+    "content/blog/_index.md",
+    "content/lifelog/2025年/2025年12月/2025年12月31日.md",
+    "content/things/bio/徳吉彩乃.md",
     "content/lifelog/_index.md",
+    "content/things/_index.md",
+    "content/things/出版社/産業編集センター.md",
+    "content/things/bio/松本貴子.md",
+    "content/things/bio/フウ.md",
+    "layouts/home.html",
     "content/blog/20251203『なぜ書くのか』.md",
     "content/blog/20251206『ヨルダンの本屋に住んでみた』.md",
     "public/blog/20251210-reading-reunification-german/index.html",
     "public/blog/20251210-reading-reunification-german",
-    "content/blog/20251209『統一後のドイツ』.md",
     "public/blog/20251210-reading/index.html",
     "public/blog/20251210-reading",
     "public/blog/202512/index.html",
@@ -213,28 +223,18 @@
     "public/blog/20251206-reading-jordan-bookstore/index.html",
     "public/blog/20251206-reading-jordan-bookstore",
     "public/blog/20251206-reading-jordan-books/index.html",
-    "public/blog/20251206-reading-jordan-books",
     "content/lifelog/2025年/2025年12月/2025年12月09日.md",
     "content/lifelog/2025年/2025年12月/2025年12月10日.md",
     "content/lifelog/2025年/2025年12月/2025年12月08日.md",
     "content/lifelog/2025年/2025年12月/2025年12月06日.md",
     "content/lifelog/2025年/2025年12月/2025年12月02日.md",
     "content/lifelog/2025年/2025年12月/2025年12月01日.md",
-    "content/things/bio/松本貴子.md",
-    "content/things/出版社/産業編集センター.md",
-    "content/things/bio/フウ.md",
-    "content/things/bio/徳吉彩乃.md",
     "content/things/bio/_index.md",
-    "content/things/_index.md",
-    "content/blog/20251201『アナキズム』.md",
     "content/blog/20251202『革命』.md",
-    "content/blog/_index.md",
     "content/無題のファイル.md",
     "content/blog/2025年12月01日『アナキズム』(白水社, 2025).md",
     "archetypes/lifelog/daily.md",
     "content/lifelog/lifelog.md",
-    "archetypes/default.md",
-    "無題のファイル.md",
     "themes/1o0.hugo-theme/content/posts/post-3/bryce-canyon.jpg"
   ]
 }
